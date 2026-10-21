@@ -1,3 +1,6 @@
 # Forzar que los archivos PHP se detecten como PHP, no como Hack.
 *.php linguist-language=PHP
 *.phtml linguist-language=PHP
+
+# Archivo viejo sin extensión: que no cuente como lenguaje.
+php-mysql/sistema_estudiantes/Readme linguist-documentation

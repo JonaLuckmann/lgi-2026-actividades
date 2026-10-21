@@ -2,9 +2,8 @@
 
 Repositorio de entrega de las actividades de la materia.
 
-- **Alumno:** Jonathan Luckmann
+- **Estudiante:** Jonathan Luckmann
 - **Materia:** LGI 2026
-- **Profesor:** Profesor de PHP
 
 ## Contenido
 

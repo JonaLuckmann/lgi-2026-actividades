@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+}

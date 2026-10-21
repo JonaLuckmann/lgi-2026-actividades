@@ -1,0 +1,148 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+
+/* -------------------------
+   BÚSQUEDA
+------------------------- */
+
+.busqueda {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.busqueda input {
+    flex: 1;
+    min-width: 180px;
+}
+
+
+/* -------------------------
+   INPUTS Y BOTONES
+------------------------- */
+
+input {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* -------------------------
+   FEEDBACK
+------------------------- */
+
+#feedback {
+    margin: 10px 0;
+    padding: 8px;
+}
+
+
+/* -------------------------
+   PRODUCTOS
+------------------------- */
+
+#productos {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(200px, 1fr));
+
+    gap: 10px;
+}
+
+
+.producto {
+    background-color: white;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    padding: 12px;
+}
+
+
+.producto h3 {
+    margin-top: 0;
+}
+
+
+/* -------------------------
+   FORMULARIO
+------------------------- */
+
+#formularioModificar {
+    background-color: white;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+#formularioModificar label {
+    display: block;
+    margin-top: 8px;
+}
+
+
+#formularioModificar input {
+    width: 100%;
+    margin-top: 4px;
+}
+
+
+.oculto {
+    display: none;
+}
+
+
+/* -------------------------
+   VENTANAS PEQUEÑAS
+------------------------- */
+
+@media (max-width: 500px) {
+
+    body {
+        margin: 10px;
+    }
+
+    .busqueda {
+        flex-direction: column;
+    }
+
+    .busqueda input,
+    .busqueda button {
+        width: 100%;
+    }
+
+}
+

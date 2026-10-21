@@ -1,0 +1,13 @@
+# Credenciales locales: no subir
+**/config/database.php
+**/config/database.local.php
+.env
+
+# Entornos e IDE
+.idea/
+.vscode/
+*.log
+
+# Compilados
+out/
+*.class

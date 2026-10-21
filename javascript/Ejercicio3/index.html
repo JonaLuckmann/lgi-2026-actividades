@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gestión de productos</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Gestión de productos</h1>
+
+        <!-- Búsqueda -->
+        <section class="busqueda">
+
+            <input
+                type="text"
+                id="buscador"
+                placeholder="Buscar producto..."
+            >
+
+            <button id="btnBuscar">
+                Buscar
+            </button>
+
+            <button id="btnMostrarTodos">
+                Mostrar todos
+            </button>
+
+        </section>
+
+
+        <!-- Mensajes para el usuario -->
+        <div id="feedback"></div>
+
+
+        <!-- Formulario para modificar -->
+        <section id="formularioModificar" class="oculto">
+
+            <h2>Modificar producto</h2>
+
+            <label for="nombreModificar">
+                Nombre:
+            </label>
+
+            <input
+                type="text"
+                id="nombreModificar"
+            >
+
+
+            <label for="precioModificar">
+                Precio:
+            </label>
+
+            <input
+                type="number"
+                id="precioModificar"
+            >
+
+
+            <button id="btnGuardar">
+                Guardar cambios
+            </button>
+
+            <button id="btnCancelar">
+                Cancelar
+            </button>
+
+        </section>
+
+
+        <!-- Productos -->
+        <section>
+
+            <h2>Productos</h2>
+
+            <div id="productos"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
